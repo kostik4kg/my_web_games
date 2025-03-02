@@ -1,0 +1,76 @@
+
+mondoplay_animation.webp
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a_white
+  rotate: true
+  xy: 834, 332
+  size: 281, 276
+  orig: 283, 278
+  offset: 1, 1
+  index: -1
+d
+  rotate: true
+  xy: 562, 616
+  size: 282, 345
+  orig: 284, 347
+  offset: 1, 1
+  index: -1
+l_white
+  rotate: false
+  xy: 1113, 276
+  size: 64, 337
+  orig: 66, 339
+  offset: 1, 1
+  index: -1
+m
+  rotate: true
+  xy: 562, 241
+  size: 372, 269
+  orig: 374, 271
+  offset: 1, 1
+  index: -1
+n
+  rotate: false
+  xy: 834, 61
+  size: 241, 268
+  orig: 243, 270
+  offset: 1, 1
+  index: -1
+o_1
+  rotate: true
+  xy: 1258, 612
+  size: 286, 276
+  orig: 288, 278
+  offset: 1, 1
+  index: -1
+o_2
+  rotate: false
+  xy: 3, 64
+  size: 286, 276
+  orig: 288, 278
+  offset: 1, 1
+  index: -1
+p_white
+  rotate: true
+  xy: 910, 616
+  size: 282, 345
+  orig: 284, 347
+  offset: 1, 1
+  index: -1
+planet
+  rotate: true
+  xy: 3, 343
+  size: 555, 556
+  orig: 557, 558
+  offset: 1, 1
+  index: -1
+y_white
+  rotate: false
+  xy: 292, 3
+  size: 262, 337
+  orig: 264, 339
+  offset: 1, 1
+  index: -1

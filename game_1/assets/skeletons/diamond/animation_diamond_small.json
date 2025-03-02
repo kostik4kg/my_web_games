@@ -1,0 +1,907 @@
+{
+  "skeleton": {
+    "hash": "QPedCt3z+kc",
+    "spine": "4.1.24",
+    "x": -24.75,
+    "y": -64.25,
+    "width": 49.5,
+    "height": 128.5
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "main",
+      "parent": "root",
+      "scaleX": 0.5,
+      "scaleY": 0.5
+    },
+    {
+      "name": "diamod small",
+      "parent": "main"
+    },
+    {
+      "name": "diamond small 1",
+      "parent": "diamod small"
+    },
+    {
+      "name": "diamond small 2",
+      "parent": "diamod small"
+    },
+    {
+      "name": "particle for diamond small",
+      "parent": "diamod small",
+      "y": -99.42
+    },
+    {
+      "name": "particle for diamond small2",
+      "parent": "diamod small",
+      "y": -99.42
+    }
+  ],
+  "slots": [
+    {
+      "name": "fx_diamond_2",
+      "bone": "diamond small 2",
+      "attachment": "fx_diamond_2",
+      "blend": "additive"
+    },
+    {
+      "name": "particle",
+      "bone": "particle for diamond small",
+      "color": "82c4ffff",
+      "attachment": "particle",
+      "blend": "additive"
+    },
+    {
+      "name": "particle2",
+      "bone": "particle for diamond small2",
+      "color": "82c4ffff",
+      "attachment": "particle",
+      "blend": "additive"
+    },
+    {
+      "name": "fx_diamond_1",
+      "bone": "diamond small 1",
+      "attachment": "fx_diamond_1",
+      "blend": "additive"
+    },
+    {
+      "name": "diamond small",
+      "bone": "diamod small",
+      "attachment": "diamond small"
+    },
+    {
+      "name": "fx_diamond_3",
+      "bone": "diamond small 2",
+      "color": "ffffff00",
+      "attachment": "fx_diamond_2",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "diamond small": {
+          "diamond small": {
+            "type": "mesh",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              39.43,
+              -20,
+              -29.57,
+              -20,
+              -29.57,
+              20,
+              39.43,
+              20
+            ],
+            "hull": 4
+          }
+        },
+        "fx_diamond_1": {
+          "fx_diamond_1": {
+            "type": "mesh",
+            "uvs": [
+              1,
+              0.25217,
+              1,
+              0.55878,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0.56822,
+              0,
+              0.25688,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              6,
+              7,
+              0,
+              5,
+              6,
+              0,
+              5,
+              0,
+              1,
+              4,
+              5,
+              1,
+              2,
+              3,
+              4,
+              2,
+              4,
+              1
+            ],
+            "vertices": [
+              27.5,
+              32.81,
+              27.5,
+              4.6,
+              27.5,
+              -35.99,
+              -27.5,
+              -35.99,
+              -27.5,
+              3.73,
+              -27.5,
+              32.37,
+              -27.5,
+              56.01,
+              27.5,
+              56.01
+            ],
+            "hull": 8
+          }
+        },
+        "fx_diamond_2": {
+          "fx_diamond_2": {
+            "type": "mesh",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              49.5,
+              -42,
+              -49.5,
+              -42,
+              -49.5,
+              42,
+              49.5,
+              42
+            ],
+            "hull": 4
+          }
+        },
+        "fx_diamond_3": {
+          "fx_diamond_2": {
+            "type": "mesh",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              49.5,
+              -42,
+              -49.5,
+              -42,
+              -49.5,
+              42,
+              49.5,
+              42
+            ],
+            "hull": 4
+          }
+        },
+        "particle": {
+          "particle": {
+            "type": "mesh",
+            "uvs": [
+              1,
+              0.08169,
+              1,
+              0.18386,
+              1,
+              0.32518,
+              1,
+              0.46651,
+              1,
+              0.61211,
+              1,
+              0.79198,
+              1,
+              0.90498,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0.9176,
+              0,
+              0.78984,
+              0,
+              0.62068,
+              0,
+              0.47079,
+              0,
+              0.33803,
+              0,
+              0.19671,
+              0,
+              0.09588,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              16,
+              17,
+              0,
+              15,
+              16,
+              0,
+              15,
+              0,
+              1,
+              14,
+              15,
+              1,
+              14,
+              1,
+              2,
+              13,
+              14,
+              2,
+              13,
+              2,
+              3,
+              12,
+              13,
+              3,
+              12,
+              3,
+              4,
+              11,
+              12,
+              4,
+              5,
+              10,
+              11,
+              5,
+              11,
+              4,
+              10,
+              5,
+              6,
+              9,
+              10,
+              6,
+              7,
+              8,
+              9,
+              7,
+              9,
+              6
+            ],
+            "vertices": [
+              40,
+              206.93,
+              40,
+              180.67,
+              40,
+              144.35,
+              40,
+              108.03,
+              40,
+              70.61,
+              40,
+              24.38,
+              40,
+              -4.66,
+              40,
+              -29.08,
+              -40,
+              -29.08,
+              -40,
+              -7.9,
+              -40,
+              24.93,
+              -40,
+              68.41,
+              -40,
+              106.93,
+              -40,
+              141.05,
+              -40,
+              177.37,
+              -40,
+              203.28,
+              -40,
+              227.92,
+              40,
+              227.92
+            ],
+            "hull": 18
+          }
+        },
+        "particle2": {
+          "particle": {
+            "type": "mesh",
+            "uvs": [
+              1,
+              0.08169,
+              1,
+              0.18386,
+              1,
+              0.32518,
+              1,
+              0.46651,
+              1,
+              0.61211,
+              1,
+              0.79198,
+              1,
+              0.90498,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0.9176,
+              0,
+              0.78984,
+              0,
+              0.62068,
+              0,
+              0.47079,
+              0,
+              0.33803,
+              0,
+              0.19671,
+              0,
+              0.09588,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              16,
+              17,
+              0,
+              15,
+              16,
+              0,
+              15,
+              0,
+              1,
+              14,
+              15,
+              1,
+              14,
+              1,
+              2,
+              13,
+              14,
+              2,
+              13,
+              2,
+              3,
+              12,
+              13,
+              3,
+              12,
+              3,
+              4,
+              11,
+              12,
+              4,
+              5,
+              10,
+              11,
+              5,
+              11,
+              4,
+              10,
+              5,
+              6,
+              9,
+              10,
+              6,
+              7,
+              8,
+              9,
+              7,
+              9,
+              6
+            ],
+            "vertices": [
+              40,
+              206.93,
+              40,
+              180.67,
+              40,
+              144.35,
+              40,
+              108.03,
+              40,
+              70.61,
+              40,
+              24.38,
+              40,
+              -4.66,
+              40,
+              -29.08,
+              -40,
+              -29.08,
+              -40,
+              -7.9,
+              -40,
+              24.93,
+              -40,
+              68.41,
+              -40,
+              106.93,
+              -40,
+              141.05,
+              -40,
+              177.37,
+              -40,
+              203.28,
+              -40,
+              227.92,
+              40,
+              227.92
+            ],
+            "hull": 18
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "idle": {
+      "slots": {
+        "particle": {
+          "alpha": [
+            {
+              "value": 0
+            },
+            {
+              "time": 0.5,
+              "value": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.5,
+              "value": 1
+            },
+            {
+              "time": 2,
+              "value": 0
+            }
+          ]
+        },
+        "particle2": {
+          "alpha": [
+            {
+              "time": 0.5,
+              "value": 1
+            },
+            {
+              "time": 0.9667,
+              "value": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "value": 0
+            },
+            {
+              "time": 1.5,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "bones": {
+        "diamond small 2": {
+          "scale": [
+            {
+              "curve": [
+                0.167,
+                1,
+                0.333,
+                0.793,
+                0.167,
+                1,
+                0.333,
+                0.793
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 0.793,
+              "y": 0.793,
+              "curve": [
+                0.667,
+                0.793,
+                0.833,
+                1,
+                0.667,
+                0.793,
+                0.833,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "curve": [
+                1.167,
+                1,
+                1.333,
+                0.793,
+                1.167,
+                1,
+                1.333,
+                0.793
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0.793,
+              "y": 0.793,
+              "curve": [
+                1.667,
+                0.793,
+                1.833,
+                1,
+                1.667,
+                0.793,
+                1.833,
+                1
+              ]
+            },
+            {
+              "time": 2
+            }
+          ]
+        },
+        "particle for diamond small": {
+          "translate": [
+            {
+              "y": 75.35
+            },
+            {
+              "time": 2,
+              "y": 98.35
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.725,
+              "y": 0.336
+            },
+            {
+              "time": 2,
+              "x": 0.735,
+              "y": 0.368
+            }
+          ]
+        },
+        "particle for diamond small2": {
+          "translate": [
+            {
+              "y": 87.04
+            },
+            {
+              "time": 0.9667,
+              "y": 98.35,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "y": 75.35
+            },
+            {
+              "time": 2,
+              "y": 87.04
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.73,
+              "y": 0.353
+            },
+            {
+              "time": 0.9667,
+              "x": 0.735,
+              "y": 0.368,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 0.725,
+              "y": 0.336
+            },
+            {
+              "time": 2,
+              "x": 0.73,
+              "y": 0.353
+            }
+          ]
+        }
+      },
+      "attachments": {
+        "default": {
+          "diamond small": {
+            "diamond small": {
+              "deform": [
+                {
+                  "vertices": [
+                    -0.11161,
+                    0.0647,
+                    0.11161,
+                    0.0647,
+                    0.11161,
+                    -0.0647,
+                    -0.11161,
+                    -0.0647
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "in": {
+      "slots": {
+        "particle": {
+          "alpha": [
+            {
+              "value": 0
+            }
+          ]
+        }
+      },
+      "bones": {
+        "particle for diamond small": {
+          "translate": [
+            {
+              "y": 75.35
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.725,
+              "y": 0.336
+            }
+          ]
+        },
+        "diamod small": {
+          "scale": [
+            {
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.111,
+                0,
+                0.122,
+                1.076,
+                0.111,
+                0,
+                0.122,
+                1.076
+              ]
+            },
+            {
+              "time": 0.2333,
+              "x": 1.076,
+              "y": 1.076
+            },
+            {
+              "time": 0.3333
+            }
+          ]
+        },
+        "particle for diamond small2": {
+          "translate": [
+            {
+              "y": 87.04
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.73,
+              "y": 0.353
+            }
+          ]
+        }
+      },
+      "attachments": {
+        "default": {
+          "diamond small": {
+            "diamond small": {
+              "deform": [
+                {
+                  "vertices": [
+                    -0.11161,
+                    0.0647,
+                    0.11161,
+                    0.0647,
+                    0.11161,
+                    -0.0647,
+                    -0.11161,
+                    -0.0647
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "out": {
+      "slots": {
+        "diamond small": {
+          "rgba": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_diamond_1": {
+          "rgba": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fx_diamond_2": {
+          "alpha": [
+            {
+              "value": 1
+            },
+            {
+              "time": 0.1667,
+              "value": 0
+            }
+          ]
+        },
+        "particle": {
+          "alpha": [
+            {
+              "value": 0
+            }
+          ]
+        },
+        "particle2": {
+          "alpha": [
+            {
+              "value": 1
+            },
+            {
+              "time": 0.1667,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "bones": {
+        "particle for diamond small": {
+          "translate": [
+            {
+              "y": 75.35
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.725,
+              "y": 0.336
+            }
+          ]
+        },
+        "particle for diamond small2": {
+          "translate": [
+            {
+              "y": 87.04
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.73,
+              "y": 0.353
+            }
+          ]
+        }
+      },
+      "attachments": {
+        "default": {
+          "diamond small": {
+            "diamond small": {
+              "deform": [
+                {
+                  "vertices": [
+                    -0.11161,
+                    0.0647,
+                    0.11161,
+                    0.0647,
+                    0.11161,
+                    -0.0647,
+                    -0.11161,
+                    -0.0647
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

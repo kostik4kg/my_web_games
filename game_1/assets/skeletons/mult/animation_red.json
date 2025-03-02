@@ -1,0 +1,172 @@
+{
+  "skeleton": {
+    "hash": "iHshOGVZaRI",
+    "spine": "4.1.24",
+    "x": -57.33,
+    "y": -50.25,
+    "width": 133,
+    "height": 108.5
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "main",
+      "parent": "root",
+      "scaleX": 0.5,
+      "scaleY": 0.5
+    },
+    {
+      "name": "shine for X",
+      "parent": "main",
+      "x": 0.42,
+      "y": 2.03
+    }
+  ],
+  "slots": [
+    {
+      "name": "shine for X",
+      "bone": "shine for X",
+      "color": "fd2330ff",
+      "attachment": "shine for X"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "shine for X": {
+          "shine for X": {
+            "type": "mesh",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              150.91,
+              -102.53,
+              -115.09,
+              -102.53,
+              -115.09,
+              114.47,
+              150.91,
+              114.47
+            ],
+            "hull": 4
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "idle": {
+      "slots": {
+        "shine for X": {
+          "rgba": [
+            {
+              "color": "fd2330ff"
+            }
+          ]
+        }
+      }
+    },
+    "in": {
+      "slots": {
+        "shine for X": {
+          "alpha": [
+            {
+              "value": 0
+            },
+            {
+              "time": 0.0333,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "bones": {
+        "shine for X": {
+          "scale": [
+            {
+              "x": 0.35,
+              "y": 0.35,
+              "curve": [
+                0.022,
+                0.35,
+                0.044,
+                1.288,
+                0.022,
+                0.35,
+                0.044,
+                1.288
+              ]
+            },
+            {
+              "time": 0.0667,
+              "x": 1.288,
+              "y": 1.288,
+              "curve": [
+                0.111,
+                1.288,
+                0.156,
+                1.112,
+                0.111,
+                1.288,
+                0.156,
+                1.112
+              ]
+            },
+            {
+              "time": 0.2,
+              "x": 1.038,
+              "y": 1.038,
+              "curve": [
+                0.211,
+                1.02,
+                0.222,
+                1,
+                0.211,
+                1.02,
+                0.222,
+                1
+              ]
+            },
+            {
+              "time": 0.2333
+            }
+          ]
+        }
+      }
+    },
+    "out": {
+      "slots": {
+        "shine for X": {
+          "rgba": [
+            {
+              "color": "fd2330ff"
+            },
+            {
+              "time": 0.1667,
+              "color": "fd233000"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
