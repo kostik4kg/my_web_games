@@ -1,0 +1,17 @@
+animation_button.webp
+size:512,256
+filter:Linear,Linear
+Layer294
+bounds:175,87,171,164
+arrows
+bounds:348,10,96,98
+rotate:90
+buttom
+bounds:2,64,171,187
+point
+bounds:175,2,83,99
+rotate:90
+ring fx
+bounds:348,108,138,143
+stop
+bounds:2,5,55,57

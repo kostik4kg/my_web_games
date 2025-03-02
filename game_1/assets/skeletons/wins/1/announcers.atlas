@@ -1,0 +1,28 @@
+announcers.webp
+size:2048,2048
+filter:Linear,Linear
+Glare
+bounds:1692,1807,172,204
+placeholder
+bounds:2,2,2,2
+point glow
+bounds:1504,314,146,134
+shine star
+bounds:1866,1967,42,44
+shine5
+bounds:1692,1754,50,51
+up
+bounds:1504,450,982,455
+rotate:90
+up blue
+bounds:2,1434,1688,577
+up purple
+bounds:2,6,1500,676
+up red
+bounds:2,684,1500,748
+
+announcers_2.webp
+size:1024,1024
+filter:Linear,Linear
+Layer 1
+bounds:2,2,600,600
