@@ -1,0 +1,80 @@
+name,en-gb,ru-ru
+,English,Русский
+continue_text,Enable sound?,ПРОДОЛЖИТЬ
+helpmenu_sound_options,SOUND OPTIONS,ОПЦИИ ЗВУКА
+helpmenu_music_volume,MUSIC VOLUME,ГРОМКОСТЬ МУЗЫКИ
+helpmenu_sound_volume,SOUND FX VOLUME,ГРОМКОСТЬ ЭФФЕКТОВ
+helpmenu_mute,MUTE,ЗАГЛУШИТЬ
+help_settings,SETTINGS,НАСТРОЙКИ
+help_music,MUSIC,МУЗЫКА
+help_sound,SOUND FX,ЗВУК
+btn_yes,yes,ВЫИГРЫШ
+btn_no,no,ВЫИГРЫШ
+onbording_text_1,Diamond\nwin,Алмазный\nВыйгрыш
+onbording_text_2,GROWING\nMULTIPLIER,растущий\nмультипликатор
+close,Close,Закрыть
+restart,Restart,Перезапустить
+helpmenu_if_balance_increases,if balance increases by,БАЛАНС УВЕЛИЧИЛСЯ НА
+helpmenu_if_balance_decreases,if balance decreases by,БАЛАНС УМЕНЬШИЛСЯ НА
+100.content,Something unexpected happened,Произошла непредвиденная ошибка
+100.header,Unexpected error,Непредвиденная ошибка
+101.content,Invalid signature,Некорректная подпись
+101.header,Unexpected error,Непредвиденная ошибка
+102.content,Data format not supported,Формат данных не поддерживается
+102.header,Unexpected error,Непредвиденная ошибка
+103.content,Body of the request is empty,В запросе отсутствуют данные
+103.header,Unexpected error,Непредвиденная ошибка
+104.content,IP address is not allowed,Недопустимый IP-адрес
+104.header,Unexpected error,Непредвиденная ошибка
+201.content,Invalid integration,Некорректная интеграция
+201.header,Unexpected error,Непредвиденная ошибка
+202.content,Currency not found,Валюта не найдена
+202.header,Unexpected error,Непредвиденная ошибка
+203.content,Region of jurisdiction not supported,Регион не поддерживается
+203.header,Unexpected error,Непредвиденная ошибка
+204.content,Balance not provided or invalid,Баланс не указан или является некорректным
+204.header,Unexpected error,Непредвиденная ошибка
+205.content,Session data too long,Лимит данных сессии превышен
+205.header,Unexpected error,Непредвиденная ошибка
+206.content,Reality check too long,Временной лимит проверки превышен
+206.header,Unexpected error,Непредвиденная ошибка
+207.content,Player not provided or invalid,Игрок не указан или является некорректным
+207.header,Unexpected error,Непредвиденная ошибка
+208.content,Game not provided or invalid,Игра не указана или является некорректной
+208.header,Unexpected error,Непредвиденная ошибка
+209.content,Amount not provided or invalid,Сумма не указана или является некорректной
+209.header,Unexpected error,Непредвиденная ошибка
+301.content,Game not allowed for the current operation,Недопустимая игра для текущей операции
+301.header,Unexpected error,Непредвиденная ошибка
+302.content,Currency not supported for the current operation,Валюта не поддерживается для текущей операции
+302.header,Unexpected error,Непредвиденная ошибка
+303.content,Player blocked,Игрок заблокирован
+303.header,Unexpected error,Непредвиденная ошибка
+401.content,Insufficient balance,Недостаточно средств
+401.header,Unexpected error,Непредвиденная ошибка
+402.content,Invalid session,Некорректная сессия
+402.header,Unexpected error,Непредвиденная ошибка
+403.content,Inconsistent data,Несоответствие данных
+403.header,Unexpected error,Непредвиденная ошибка
+404.content,Bonus not found,Бонус не найден
+404.header,Unexpected error,Непредвиденная ошибка
+406.content,Transaction not provided or invalid,Транзакция не указана или является некорректной
+406.header,Unexpected error,Непредвиденная ошибка
+407.content,Round not provided or invalid,Раунд не указан или является некорректным
+407.header,Unexpected error,Непредвиденная ошибка
+500.content,Please restart the game,"Пожалуйста, перезапустите игру"
+500.header,Something went wrong,Что-то пошло не так
+501.content,Please restart the game,"Пожалуйста, перезапустите игру"
+501.header,The session time expired,Время сеанса истекло
+502.content,Please select the correct bet amount,"Пожалуйста, выберите корректный размер ставки"
+502.header,The bet is Invalid,Некорректная ставка
+503.content,Please change the bet or top up your balance,"Пожалуйста, измените ставку или пополните баланс"
+503.header,Insufficient funds,Недостаточно средств
+504.content,The buy feature can't be completed,Покупка не может быть совершена
+504.header,The price is Invalid,Некорректная стоимость
+505.content,Something went wrong during transaction processing,Во время обработки транзакции произошла ошибка
+505.header,The bet processing error,Ошибка обработки ставки
+506.content,Something went wrong during transaction processing,Во время обработки транзакции произошла ошибка
+506.header,The win processing error,Ошибка обработки выигрыша
+507.content,The session can't be continued. Please restart the game,"Сеанс не может быть продолжен. Пожалуйста, перезапустите игру"
+507.header,The session is over,Сессия завершена
