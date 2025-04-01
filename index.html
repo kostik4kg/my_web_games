@@ -1,11 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игровой портал</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1b3d2f; /* Тёмно-зелёный фон */
+            color: #d4e8cc; /* Светло-зелёный текст */
+            text-align: center;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #244f3b; /* Глубокий зелёный */
+            padding: 10px 20px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #a3d9a5; /* Свежий зелёный акцент */
+            
+        }
+        .logo img {
+             height: 150px;   
+        }
+        .logo p {
+            margin-left: 20px;
+            text-transform: uppercase;   
+        }
+        .search {
+            padding: 5px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #a3d9a5;
+            background-color: #2c5c43;
+            color: white;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .game-block {
+            user-select: none;
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            margin: 10px;
+            padding: 15px;
+            background-color: #2c5c43; /* Приятный темно-зелёный */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(163, 217, 165, 0.3); /* Лёгкое зелёное свечение */
+        }
+        .game-block img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .game-block h2 {
+            color: #a3d9a5; /* Светлый зелёный акцент */
+        }
+    </style>
 </head>
 <body>
-  <!-- https://kostik4kg.github.io/my_web_games -->
+    <header class="header">
+        <div class="logo">
+            <img src="./assets/logo2.png" alt="logo">
+            <p>Покушать принес</p>
+        </div>
+        <input type="text" class="search" placeholder="Поиск игр...">
+    </header>
+
+    <h1>Добро пожаловать!</h1>
+    <div class="container" id="gameContainer"></div>
+
+    <script>
+        const games = [
+            { title: "Игра 1", description: "Описание первой игры.", image: "game_1/assets/proto/proto.png" },
+            { title: "Игра 2", description: "Описание второй игры.", image: "game_2/assets/proto/proto.png" },
+            // { title: "Игра 3", description: "Описание третьей игры.", image: "proto_1.png" }
+        ];
+
+        const gameContainer = document.getElementById("gameContainer");
+
+        games.forEach(game => {
+            const gameBlock = document.createElement("a");
+            gameBlock.className = "game-block";
+            gameBlock.innerHTML = `
+                <img src="${game.image}" alt="${game.title}">
+                <h2>${game.title}</h2>
+                <p>${game.description}</p>
+            `;
+            gameContainer.appendChild(gameBlock);
+        });
+    </script>
 </body>
 </html>
