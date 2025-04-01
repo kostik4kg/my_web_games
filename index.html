@@ -111,8 +111,9 @@
 
         const gameContainer = document.getElementById("gameContainer");
 
-        games.forEach(game => {
+        games.forEach((game, i) => {
             const gameBlock = document.createElement("a");
+            gameBlock.href = `https://kostik4kg.github.io/my_web_games/game_${i + 1}/`;
             gameBlock.className = "game-block";
             gameBlock.innerHTML = `
                 <img src="${game.image}" alt="${game.title}">
